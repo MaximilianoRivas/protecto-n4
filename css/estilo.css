@@ -83,13 +83,14 @@
 }
 
 section{
-    
+ width: 100%;
  padding: 4rem 0;
 }
 nav{
     background-image: url(../img/montaña.jpg);
     height: 90vh;
     width: 100%;
+    background-repeat: no-repeat;
 }
 .barra{
     display: flex;
@@ -161,6 +162,7 @@ nav{
     right: 100px;
     width: 400px;
     height: 500px;
+    
 
    }
    .bestwork{
@@ -174,9 +176,9 @@ nav{
    
    
    .foto1,.foto2{
-    width: 400px;
+    width: 500px;
     height:300px;
-    width: 90%;
+    width: 96%;
 
    }
    
@@ -200,7 +202,7 @@ nav{
     color: darkgrey;
     position: absolute;
     top: 1518px;
-    left: 488px;
+    left: 450px;
 
    }
 
@@ -208,7 +210,7 @@ nav{
     
     color: darkgrey;
     padding: 20px;
-    width: 200px;
+    width: 100px;
     height: 150px;
 }
 .work{
@@ -217,7 +219,9 @@ nav{
 }
 .video{
     margin: 3rem;
+    
 }
+
 .titulo{
     text-transform: uppercase;
     width: 20%;
@@ -225,22 +229,25 @@ nav{
     margin: 2rem;
 }
 .play1{
+    
     margin: 2rem;
     width: 3rem;
     position: absolute;
     top: 2200px;
     right: 0;
-    left: 300px;
-    bottom: 10px;
+    left: 700px;
+    bottom: 100px;
 }
 .play2{
     margin: 2rem;
     width: 3rem;
     position: absolute;
     top: 2200px;
-    left: 900px;
+    left: 300px;
+    
 
 }
+
 .maxi{
     position: absolute;
     right:360px;
@@ -311,9 +318,6 @@ nav{
 .award{
     background-color: linen;
     padding-left: 4rem;
-    
-
-    
 }
 
 .award1{
@@ -321,7 +325,7 @@ nav{
     justify-content: space-between;
 }
 .texto1{
-    padding-top: 20rem;
+    padding-top: 15rem;
     width: 30%;
 }
     
@@ -403,18 +407,142 @@ input{
 
 }
     
-
-.container {
-    width: 100%;
-    height: 100vh;
-  }
-  @media (max-width: 768px) {
+@media screen and (min-width:1024px) {
+    
     /* Estilos para pantallas de hasta 768px de ancho */
   }
   
-  @media (max-width: 480px) {
-    /* Estilos para pantallas de hasta 480px de ancho */
+  @media screen and  (min-width: 768px) and (max-width: 1023px) {
+   .barras{
+    font-size: 12px;
+   }
+   .barra{
+    display: flex;
+   justify-content: space-between;
+   }
+   .tomass{
+    font-size: 24px;
+   }
+   .barra-vertical{
+    
+    margin-top: 200px;
+   }
+   .eros{
+    display: inline-flex;
+    
+    
+   }
+   .toma{
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 150px;
+    font-size: 40px;
+}
+.profesional1{
+    font-size: 1rem;
+}
+.foto{
+    display: flex;
+    position: absolute;
+    top: 950px;
+    left: 470px;
+    width: 300px;
+    height: 500px;
+}
+.bestwork{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.work{
+    padding: 4.5rem;
+}
+
+.foto1{
+    height: 260px;
+    width: 200px;
+}
+.foto2{
+    width: 200px;
+    height: 260px;
+    
+}
+.foto3{
+    width: 270px;
+    height: 260px;
+}
+
+.parrafo3{
+    
+    position: absolute;
+    left:260px;
+    top: 2130px;
+
+}
+
+.parrafo4{
+
+    position: absolute;
+    left:470px;
+    top: 2130px;
+}
+.fotos{
+    width: 350px;
+    height: 300px;
+
+}
+.fotos1{
+    width: 350px;
+    height: 300;
+}
+.play1{
+    position: absolute;
+    top: 2700px;
+    left: 600px;
+}
+.play2{
+    position: absolute;
+    left:280px;
+    top: 2703px;
+}
+
+
+.maxi{
+    position: absolute;
+    left: 240px;
+    top: 1390px;
+    font-size: 1.5rem;
+}
+.oslo{
+    position: absolute;
+    position: absolute;
+    left: 472px;
+    top: 2820px
+}
+.award1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.persona2{
+    width: 200px;
+    height: 220px;
+}
+.texto1{
+    padding-top: 12rem;
+    width: 28%;
+    font-size: 10px;
+}
+ 
+    /* Estilos para pantallas de 768px a 1023px de ancho */
   }
+  
+  @media screen and (min-width: 767px) {
+
+
+    /* Estilos para pantallas de 767px de ancho en adelante */
+  }
+
 
    
 
