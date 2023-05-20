@@ -198,14 +198,14 @@ nav{
    .parrafo4{
     color: darkgrey;
     position: absolute;
-    top: 1518px;
-    left: 798px;
+    top: 1503px;
+    left: 845px;
    }
    .parrafo3{
     color: darkgrey;
     position: absolute;
-    top: 1518px;
-    left: 450px;
+    top: 1503px;
+    left: 480px;
 
    }
 
@@ -236,7 +236,7 @@ nav{
     margin: 2rem;
     width: 3rem;
     position: absolute;
-    top: 2200px;
+    top: 2099px;
     right: 0;
     left: 700px;
     bottom: 100px;
@@ -245,7 +245,7 @@ nav{
     margin: 2rem;
     width: 3rem;
     position: absolute;
-    top: 2200px;
+    top: 2099px;
     left: 300px;
     
 
@@ -265,7 +265,7 @@ nav{
     color:white;
     position: absolute;
     left: 550px;
-    top: 2220px;
+    top: 2200px;
 }
 
 .h11{
@@ -707,6 +707,7 @@ input{
         width: 90%;
         
        }
+
         /* Estilos para pantallas de 767px de ancho en adelante */
         
         }
