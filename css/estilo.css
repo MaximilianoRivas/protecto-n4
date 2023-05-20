@@ -579,7 +579,7 @@ input{
         }
         .barras{
             font-size: 18px;
-            color: yellow;
+            color: white;
         }
         .eros{
             padding: 20px;
@@ -655,38 +655,39 @@ input{
             left: 220px;
         }
         .fotos{
-            width: 200px;
-            height: 190px;
+            width: 180px;
+            height: 180px;
             
         }
         .fotos1{
-            width: 200px;
-            height: 190px;
+            width: 180px;
+            height: 180px;
 
         }
         .play1{
             position: absolute;
             right: 600px;
             left: 70px;
-            top: 1990px;
+            top: 1900px;
         }
         .play2{
             position: absolute;
-           top: 1990px;
+           top: 1900px;
            left: 320px;
         }
         .maxi{
             font-size: 20px;
             position: absolute;
             left: 140px;
-            top:1030px ;
+            top:1000px ;
         }
         .oslo{
             position: absolute;
-            left:280px;
-            top:2090px;
+            left:278px;
+            top:2030px;
 
         }
+        
         .yes,.ah{
             display: inline-block;  
         }
@@ -695,7 +696,7 @@ input{
         .yes{
             width: 100%;
             margin-left: 17px;
-            font-size: 15px;
+            font-size: 8px;
             margin-bottom: 40px;
             
         }
@@ -730,6 +731,10 @@ input{
         margin: 0;
         width: 90%;
         
+       }
+
+       .miercoles{
+        width: 100%;
        }
 
 
