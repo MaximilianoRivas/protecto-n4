@@ -8,14 +8,13 @@
     background-color: lightsteelblue;
 }
 .barras{
-   
     display: flex;
-    padding: left 10px; ;
+    padding: left 20px; ;
 }
 .barra-vertical {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     background-color: lightgrey;
     
     
@@ -161,8 +160,9 @@ nav{
    }
    .foto{
     position: absolute;
-    top: 500px;
-    right: 100px;
+    top: 590px;
+    right: 0px;
+    left: 650px;
     width: 400px;
     height: 500px;
     
