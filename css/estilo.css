@@ -5,6 +5,7 @@
    
 }
 .principio{
+  
     background-color: lightsteelblue;
 }
 .barras{
@@ -419,7 +420,14 @@ input{
   }
   
   @media screen and  (min-width: 768px) and (max-width: 1023px) {
-   .barras{
+    
+    .barra-vertical{
+        position: absolute;
+        left: 645px;
+
+
+    }
+    .barras{
     font-size: 12px;
    }
    .barra{
@@ -481,16 +489,16 @@ input{
 .parrafo3{
     
     position: absolute;
-    left:260px;
-    top: 2130px;
+    left:300px;
+    top: 2069px;
 
 }
 
 .parrafo4{
 
     position: absolute;
-    left:470px;
-    top: 2130px;
+    left:500px;
+    top: 2068px;
 }
 .fotos{
     width: 350px;
@@ -503,28 +511,30 @@ input{
 }
 .play1{
     position: absolute;
-    top: 2700px;
+    top: 2590px;
     left: 600px;
 }
 .play2{
     position: absolute;
-    left:280px;
-    top: 2703px;
+    left:200px;
+    top:2590px;
 }
 
 
 .maxi{
     position: absolute;
-    left: 240px;
-    top: 1390px;
+    left:240px;
+    top:1330px;
     font-size: 1.5rem;
 }
 .oslo{
-    position: absolute;
-    position: absolute;
-    left: 472px;
-    top: 2820px
+    position:absolute;
+    left:472px;
+    top:2730px;
+    
 }
+     
+
 .award1{
     display: flex;
     justify-content: space-evenly;
@@ -548,6 +558,13 @@ input{
         .barra-vertical{
             position: absolute;
             left: 480px; 
+        }
+        .principio{
+        width: 150%;
+            
+        }
+        footer{
+            width:150%;
         }
 
         
@@ -665,10 +682,9 @@ input{
             top:1030px ;
         }
         .oslo{
-             position: absolute;
-             
-            left: 280px;
-            top:2090px ;
+            position: absolute;
+            left:280px;
+            top:2090px;
 
         }
         .yes,.ah{
