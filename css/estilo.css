@@ -545,6 +545,10 @@ input{
   
  
     @media screen and (max-width: 767px){
+        .barra-vertical{
+            position: absolute;
+            left: 480px; 
+        }
 
         
         nav{
