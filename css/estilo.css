@@ -325,11 +325,13 @@ nav{
 .award{
     background-color: linen;
     padding-left: 4rem;
+    
 }
 
 .award1{
     display: flex;
     justify-content: space-between;
+    
 }
 .texto1{
     padding-top: 15rem;
@@ -679,12 +681,12 @@ input{
             font-size: 20px;
             position: absolute;
             left: 140px;
-            top:1000px ;
+            top:970px ;
         }
         .oslo{
             position: absolute;
             left:278px;
-            top:2030px;
+            top:1990px;
 
         }
         
@@ -696,7 +698,7 @@ input{
         .yes{
             width: 100%;
             margin-left: 17px;
-            font-size: 8px;
+            font-size: 9px;
             margin-bottom: 40px;
             
         }
@@ -723,13 +725,16 @@ input{
        .award1{
         display: flex;
         justify-content: space-around;
+        
        }
        .texto1{
         position: absolute;
         right: 0;
         left: 20px;
         margin: 0;
-        width: 90%;
+        top: 2656px;
+        width: 75%;
+        font-size: 14px;
         
        }
 
